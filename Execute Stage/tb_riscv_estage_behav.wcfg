@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_riscv_estage_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_riscv_estage" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="100000001fs"></ZoomEndTime>
+      <Cursor1Time time="100000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb_riscv_estage/oprnd1sel" type="logic">
+      <obj_property name="ElementShortName">oprnd1sel</obj_property>
+      <obj_property name="ObjectShortName">oprnd1sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/oprnd2sel" type="logic">
+      <obj_property name="ElementShortName">oprnd2sel</obj_property>
+      <obj_property name="ObjectShortName">oprnd2sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/fwda" type="array">
+      <obj_property name="ElementShortName">fwda[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fwda[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/fwdb" type="array">
+      <obj_property name="ElementShortName">fwdb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fwdb[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/storesrc" type="array">
+      <obj_property name="ElementShortName">storesrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">storesrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/bcond" type="array">
+      <obj_property name="ElementShortName">bcond[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bcond[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/aluctrl" type="array">
+      <obj_property name="ElementShortName">aluctrl[4:0]</obj_property>
+      <obj_property name="ObjectShortName">aluctrl[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/pc" type="array">
+      <obj_property name="ElementShortName">pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/rs1data" type="array">
+      <obj_property name="ElementShortName">rs1data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/rs2data" type="array">
+      <obj_property name="ElementShortName">rs2data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/rddata_m" type="array">
+      <obj_property name="ElementShortName">rddata_m[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rddata_m[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/rddata_wb" type="array">
+      <obj_property name="ElementShortName">rddata_wb[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rddata_wb[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/simm" type="array">
+      <obj_property name="ElementShortName">simm[63:0]</obj_property>
+      <obj_property name="ObjectShortName">simm[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/aluresult" type="array">
+      <obj_property name="ElementShortName">aluresult[63:0]</obj_property>
+      <obj_property name="ObjectShortName">aluresult[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/storedata" type="array">
+      <obj_property name="ElementShortName">storedata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">storedata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_estage/branchtaken" type="logic">
+      <obj_property name="ElementShortName">branchtaken</obj_property>
+      <obj_property name="ObjectShortName">branchtaken</obj_property>
+   </wvobject>
+</wave_config>

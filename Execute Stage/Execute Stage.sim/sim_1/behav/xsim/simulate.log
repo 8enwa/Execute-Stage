@@ -1,0 +1,12 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Time: 0 | ALUResult: 0000000000000000 | StoreData: 0000000000000000 | BranchTaken: 1
+Time: 10000 | ALUResult: ffffffffffffffff | StoreData: 000000000000000b | BranchTaken: 0
+Time: 20000 | ALUResult: fffffffffffffff0 | StoreData: 000000000000000b | BranchTaken: 0
+Time: 30000 | ALUResult: ffffffffffffffe0 | StoreData: 000000000000000b | BranchTaken: 0
+Time: 40000 | ALUResult: ffffffffffffffe0 | StoreData: 0000000000000020 | BranchTaken: 0
+Time: 50000 | ALUResult: ffffffffffffffe0 | StoreData: 0000000000000030 | BranchTaken: 0
+Time: 60000 | ALUResult: ffffffffffffffe0 | StoreData: 0000000000000030 | BranchTaken: 1
+Time: 80000 | ALUResult: 0100000000000000 | StoreData: 0000000000000030 | BranchTaken: 1
+Time: 90000 | ALUResult: 0000000000000001 | StoreData: 0000000000000030 | BranchTaken: 1
+$stop called at time : 100 ns : File "E:/vivado_projects/Execute Stage/Execute Stage.srcs/sim_1/new/tb_riscv_estage.v" Line 114
